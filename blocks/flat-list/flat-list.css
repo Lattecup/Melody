@@ -3,3 +3,21 @@
   padding: 0;
   margin: 55px 0 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .flat-list {
+    margin: 35px 0 0;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .flat-list {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .flat-list {
+    margin: 15px 0 0;
+  }
+}

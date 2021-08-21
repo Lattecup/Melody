@@ -43,6 +43,46 @@ path.current-floor {
   opacity: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .flats {
+    width: 363px;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .flats {
+    width: 343px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .flats {
+    width: 283px;
+    height: 353px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .flats {
+    width: 253px;
+    height: 333px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .flats {
+    width: 223px;
+    height: 333px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .flats {
+    width: 183px;
+    height: 333px;
+  }
+}
+
 .flats path:hover {
   opacity: 1;
 }

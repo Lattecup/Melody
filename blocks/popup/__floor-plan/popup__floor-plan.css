@@ -10,3 +10,37 @@
   transition: transform 0.2s, opacity 0.2s;
   transition-delay: 0.2s;
 }
+
+@media screen and (max-width: 1024px) {
+  .popup__floor-plan {
+    max-width: 800px;
+    min-height: 465px;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .popup__floor-plan {
+    max-width: 650px;
+    min-height: 365px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .popup__floor-plan {
+    max-width: 550px;
+    min-height: 315px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .popup__floor-plan {
+    max-width: 450px;
+    min-height: 275px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .popup__floor-plan {
+    max-width: 100%
+  }
+}

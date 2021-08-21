@@ -2,4 +2,19 @@
   padding: 50px 46px;
   width: 40%;
   background-color: #EBEBEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 845px) {
+  .popup__info {
+    padding: 30px 26px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .popup__info {
+    padding: 10px 10px;
+  }
 }

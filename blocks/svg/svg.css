@@ -1,0 +1,48 @@
+.home-image path {
+  opacity: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 880px) {
+  .home-image {
+    max-width: 534px;
+    max-height: 534px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .home-image {
+    max-width: 434px;
+    max-height: 434px;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .home-image {
+    max-width: 334px;
+    max-height: 334px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-image {
+    max-width: 320px;
+    max-height: 320px;
+  }
+}
+
+path.current-floor {
+  opacity: 1;
+}
+
+.home-image path:hover {
+  opacity: 1;
+}
+
+.flats path {
+  opacity: 0;
+}
+
+.flats path:hover {
+  opacity: 1;
+}

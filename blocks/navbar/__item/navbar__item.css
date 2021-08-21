@@ -1,0 +1,23 @@
+.navbar__item {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar__item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .navbar__item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__item {
+    font-size: 12px;
+  }
+}
+

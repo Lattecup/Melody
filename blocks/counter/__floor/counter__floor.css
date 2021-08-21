@@ -1,0 +1,27 @@
+.counter__floor {
+  color: #635854;
+  font-family: 'Bebas Neue Book', sans-serif;
+  font-size: 124px;
+  margin: 35px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .counter__floor {
+    font-size: 80px;
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .counter__floor {
+    font-size: 60px;
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .counter__floor {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+}

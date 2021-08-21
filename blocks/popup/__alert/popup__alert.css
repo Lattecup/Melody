@@ -1,0 +1,9 @@
+.popup__alert {
+  color: #635854;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.18;
+  text-decoration: none;
+  margin: 50px 0 0;
+  padding: 0;
+}

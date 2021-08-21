@@ -1,0 +1,20 @@
+.navbar__menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .navbar__menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .navbar__menu {
+    gap: 5px;
+  }
+}

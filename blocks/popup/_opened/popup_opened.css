@@ -1,0 +1,9 @@
+.popup_opened {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup_opened > .popup__floor-plan {
+  opacity: 1;
+  transform: translateY(0);
+}

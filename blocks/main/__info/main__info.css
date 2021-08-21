@@ -1,0 +1,27 @@
+.main__info {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .main__info {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__info {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .main__info {
+    gap: 10px;
+  }
+}
+

@@ -1,0 +1,26 @@
+.navbar {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1290px) {
+  .navbar {
+    max-width: calc(100% - 50px);
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .navbar {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .navbar {
+    max-width: calc(100% - 20px);
+    justify-content: center;
+  }
+}

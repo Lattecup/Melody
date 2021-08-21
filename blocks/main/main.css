@@ -1,0 +1,29 @@
+.main {
+  max-width: 1280px;
+  margin: auto;
+  padding: 54px 0 100px;
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1290px) {
+  .main {
+    max-width: calc(100% - 50px);
+    padding: 34px 0 80px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .main {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .main {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+

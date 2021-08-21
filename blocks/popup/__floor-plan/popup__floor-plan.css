@@ -1,0 +1,12 @@
+.popup__floor-plan {
+  position: relative;
+  max-width: 1000px;
+  min-height: 565px;
+  background-color: #FFF;
+  flex-grow: 1;
+  display: flex;
+  opacity: 0;
+  transform: translateY(-10%);
+  transition: transform 0.2s, opacity 0.2s;
+  transition-delay: 0.2s;
+}
